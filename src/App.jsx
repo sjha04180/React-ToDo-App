@@ -130,7 +130,7 @@ function App() {
               </div>
             </div>
             <div className="todos">
-              {todos.length === 0 && <div className='text-center py-10 md:px-60 md:py-40 text-xl'>No tasks to display</div>}
+              {todos.length === 0 && <div className='text-center py-10 xl:px-60 xl:py-40 text-xl'>No tasks to display</div>}
               {todos.map(item => {
 
                 return (ShowFinished || !item.isCompleted) && <div key={item.id} className="todo flex ml-0 gap-6 m-3 w-[80vw] md:w-[51vw] items-center justify-between">
